@@ -3,10 +3,14 @@ name: build
 on:
   push:
     branches:
-      - 'main'
+      - 'master'
 
 env:
+<<<<<<< HEAD
   DOCKERHUB_USERNAME: richey07
+=======
+  DOCKERHUB_USERNAME: richey07 
+>>>>>>> 7938ec0143de7459b750a8aaf6631c8339df40ba
 
 jobs:
   docker:
